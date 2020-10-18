@@ -1,0 +1,32 @@
+.footerNavigation {
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  @media (max-width: 950px) {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin: 0;
+
+      &:after {
+        content: '>';
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 8px;
+        font-weight: 600;
+      }
+    }
+  }
+}

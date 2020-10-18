@@ -1,0 +1,53 @@
+.service {
+  text-align: center;
+  max-width: 300px;
+  margin-bottom: 15px;
+  padding: 20px 30px;
+  background: #f5f3f3;
+  border-radius: 5px;
+  border: 6px solid transparent;
+
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.activeService {
+  border-color: #fff343;
+}
+
+.interactableService {
+  cursor: pointer;
+}
+
+.serviceTitle {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 3px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.serviceImage {
+  max-width: 100%;
+}
+
+.serviceDescription {
+  display: block;
+  font-size: 16px;
+}
+
+.servicePrice {
+  display: inline-block;
+  min-width: 200px;
+  margin: 10px auto 0;
+  padding: 10px;
+  background: #fff343;
+
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}

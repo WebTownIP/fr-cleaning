@@ -1,0 +1,13 @@
+.prices {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.pricingCaption {
+  text-align: center;
+  color: #b7b7b7b;
+  font-size: 18px;
+}

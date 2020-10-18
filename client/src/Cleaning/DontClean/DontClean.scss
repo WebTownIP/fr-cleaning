@@ -1,0 +1,30 @@
+.dontCleanItems {
+  display: block;
+  text-align: center;
+
+  & > div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.dontCleanItem {
+  border-radius: 50%;
+  border: 3px solid #f65265;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}

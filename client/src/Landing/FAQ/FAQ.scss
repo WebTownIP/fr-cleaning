@@ -1,0 +1,17 @@
+.faqWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.questions {
+  width: 900px;
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.question {
+  font-size: 28px;
+  font-weight: normal;
+}

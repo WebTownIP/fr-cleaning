@@ -1,0 +1,35 @@
+.textAreaWrapper {
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textAreaLabel {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a5a5a5;
+  margin-bottom: 5px;
+}
+
+.textAreaControl {
+  height: 100px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid #acacac;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding: 5px;
+  color: #333;
+  resize: none;
+}

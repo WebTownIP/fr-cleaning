@@ -1,0 +1,67 @@
+.header {
+  padding: 15px 0;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.headerContainer {
+  display: flex;
+
+  @media(max-width: 870px) {
+    flex-direction: column;
+  }
+}
+
+.headerLogoWrapper {
+  margin: auto;
+}
+
+.headerNavWrapper {
+  flex: 1;
+  margin: auto;
+}
+
+.subHeader {
+  padding: 30px 0;
+  background: #333;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+
+  &Container {
+    @media (max-width: 740px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & a:not(:last-child) {
+        margin-bottom: 7px;
+      }
+    }
+  }
+
+  & a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+
+    &:not(:first-of-type) {
+      font-size: 21px;
+    }
+
+    & img {
+      vertical-align: middle;
+      margin-right: 10px;
+      margin-left: 20px;
+    }
+
+    & span {
+      vertical-align: middle;
+    }
+  }
+}

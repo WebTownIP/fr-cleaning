@@ -1,0 +1,35 @@
+.cleaningWrapper {
+  width: 100%;
+  max-width: none;
+  min-height: 500px;
+  background: url('./CleaningBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding-top: 50px;
+  justify-content: flex-end;
+}
+
+.cleaningInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  @media (max-width: 700px) {
+    align-items : center;
+  }
+}
+
+.cleaningInfoItem {
+  display: inline-block;
+  width: 450px;
+  text-align: center;
+  padding: 8px 5px;
+  border-radius: 5px;
+  background: #ffff00;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 100%;
+}

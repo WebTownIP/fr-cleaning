@@ -1,0 +1,31 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.jsx"
+  ],
+  "rules": {
+    "react/button-has-type": false,
+    "indentation": false,
+    "color-no-invalid-hex": true,
+    "shorthand-property-no-redundant-values": true,
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "selector-pseudo-class-no-unknown": [true, {
+      "ignorePseudoClasses": ["global", "export"]
+    }],
+    "property-no-unknown": [true, {
+      "ignoreSelectors": [":export"]
+    }],
+    "at-rule-no-unknown":null,
+    "scss/at-rule-no-unknown": true,
+    "selector-max-type": [0, {
+      "ignore": ["child", "compounded", "descendant"],
+      "ignoreTypes": ["body", "html", "a"]
+    }]
+  }
+}

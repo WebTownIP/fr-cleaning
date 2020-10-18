@@ -1,0 +1,35 @@
+.formTitleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.formInfo {
+  flex: 1;
+}
+
+.formLogo {
+  width: 200px;
+  margin-right: 30px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.formTitle {
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}

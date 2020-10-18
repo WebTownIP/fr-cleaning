@@ -1,0 +1,69 @@
+.callFormWrapper {
+  width: 100%;
+  min-height: 500px;
+  background: url('./CallFormBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+.callFormSectionTitle {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.callFormSectionSubTitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.callForm {
+  display: block;
+  width: 400px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+
+  @media (max-width: 420px) {
+    width: 280px;
+  }
+
+  input,
+  button {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    color: #333;
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  button {
+    margin-top: 30px;
+    background: #fff343;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.callFormTitle {
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-bottom: 12px;
+}

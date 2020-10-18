@@ -1,0 +1,39 @@
+.discountInfo {
+  position: relative;
+  cursor: pointer;
+
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: red;
+
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+
+
+  & .discountInfoText {
+    display: none;
+  }
+
+  &:hover .discountInfoText {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 190px;
+    padding: 8px;
+    border-radius: 3px;
+    bottom: -55px;
+    left: -55px;
+    background: #fff;
+    border: 2px solid #fff343;
+
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
